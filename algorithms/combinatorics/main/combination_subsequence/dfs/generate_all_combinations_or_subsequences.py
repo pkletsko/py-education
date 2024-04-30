@@ -1,4 +1,4 @@
-def generate_all_combinations_or_sub_sequences(nums):
+def generate_all_combinations_or_subsequences(nums):
     LEAF_NODE: int = len(nums)
     # global result variable
     res = []

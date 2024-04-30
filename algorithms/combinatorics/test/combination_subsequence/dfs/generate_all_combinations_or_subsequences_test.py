@@ -2,12 +2,12 @@ import sys
 
 sys.path.append("..")
 
-from algorithms.combinatorics.main.combination_subsequence.dfs.generate_all_combinations_or_sub_sequences import \
-    generate_all_combinations_or_sub_sequences
+from algorithms.combinatorics.main.combination_subsequence.dfs.generate_all_combinations_or_subsequences import \
+    generate_all_combinations_or_subsequences
 
-print(generate_all_combinations_or_sub_sequences([1, 2, 3]))
-print(generate_all_combinations_or_sub_sequences([]))
-print(generate_all_combinations_or_sub_sequences([1, 2, 3, 4]))
+print(generate_all_combinations_or_subsequences([1, 2, 3]))
+print(generate_all_combinations_or_subsequences([]))
+print(generate_all_combinations_or_subsequences([1, 2, 3, 4]))
 
 # Can we count original sequence as subsequence ?
 
